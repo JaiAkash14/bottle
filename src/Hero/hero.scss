@@ -1,0 +1,62 @@
+.Hero {
+    background-color: #032427;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.blur {
+    border-radius: 50%;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: -205px;
+    filter: blur(100px);
+}
+
+
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    transform: translateX(300px);
+    filter: blur(100px);
+}
+
+.Text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+   
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 64px;
+    }
+    a{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    Button{
+        background-color: darkorange;
+        margin-top: 30px;
+        border-radius: 20px;
+        // cursor: pointer;
+        
+    &:hover {
+        background-color: darkorange; // Change to the desired hover color
+    }
+        
+    }
+
+}

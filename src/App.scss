@@ -1,0 +1,32 @@
+html{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+.image{
+  position: fixed;
+  z-index: 100;
+  top: 40%;
+  left: 50%;
+  margin-top: -57px; /* Negative half of height. */
+  margin-left: -102px; 
+
+  img{
+    height: 115px;
+    width: 204px;
+  }
+}
+.imageBottle{
+  height: 936;
+  width: 298;
+  position: fixed;
+  z-index: 80;
+  top: 40%;
+  left: 50%;
+  margin-top: -65px; /* Negative half of height. */
+  margin-left: -149px;
+}
