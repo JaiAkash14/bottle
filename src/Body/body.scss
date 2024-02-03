@@ -1,33 +1,48 @@
- .body{
-    background-color: #2B575B;
-    height: 100vh;
-   
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-end;
-img{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-self: flex-end;
-    
-}
+ .body {
+     background-color: #2B575B;
+     height: 100vh;
+     position: relative;
+     overflow: hidden;
+     display: flex;
+     justify-content: flex-end;
 
+     img {
+         height: 100%;
+         width: 50%;
+         display: flex;
+     
 
+     }
+ }
 
+ .circleL {
+     border-radius: 50%;
+     background-color: white;
+     height: 400px;
+     width: 400px;
+     position: absolute;
+     top: 20%;
+     left: -250px;
+     filter: blur(50px);
+     opacity: 0.5;
 
  }
- .circleL{
-    border-radius: 50%;
-    background-color: white;
-    height: 400px;
-    width: 400px;
-    position: absolute;
-    top: 20%;
-    left: -250px;
-    filter: blur(50px);
-    opacity: 0.5;
 
- }
+ .content {
+  display: flex;
+ width: 50%;
+ height: 100vh;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ gap: 20px;
+ color: white;
  
+ 
+    img{
+        height: 80px;
+        width:80px;
+        
+    }
+ }
